@@ -40,6 +40,6 @@ This collection currently includes a
 
 ## WHEN: 
 
-A full release is planned for 2021.
+A staged full release for the public-facing tool is planned throughout 2021.
 
 
