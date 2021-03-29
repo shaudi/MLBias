@@ -14,8 +14,14 @@ WHY: AI and machine learning-based tools and techniques are quickly being adopte
 
 WHAT: This collection currently includes a 
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
+
 *An Annotated List of Resources
-  *Books
+*Books
   *Articles
   *Code
   *Frameworks
