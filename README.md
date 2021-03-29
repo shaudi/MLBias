@@ -8,7 +8,7 @@
 
 
 
-The US Census Bureau xD team, in collaboration with the [10x](https://10x.gsa.gov) program, is building a library of machine learning and artificial intelligence resources to help combat bias introduced by bias and algorithms. We aim to create toolkits to diverse audiences encompassing both technical and non-technical users.
+The US Census Bureau xD team, in collaboration with the [10x](https://10x.gsa.gov) program, is building a library of machine learning and artificial intelligence resources to help combat bias introduced by bias and algorithms. We aim to create tools and resources for diverse audiences encompassing both technical and non-technical users.
 
 ## WHY: 
 
