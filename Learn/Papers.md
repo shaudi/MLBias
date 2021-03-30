@@ -61,13 +61,13 @@ Below is an annotated list of AI ethics papers (academic, white, and gray litera
 * [Jailbreaking Techniques](https://reverse.put.as/wp-content/uploads/2011/06/pod2g-jailbreak-techniques-wwjc-2012.pdf) [PDF]
 * [Reversing iOS Apps: A Practical Approach](https://s3.amazonaws.com/s3.synack.com/T2_reversingIOSApps.pdf) [PDF]
 
-## Malware Analysis
+## Reading about Bias Mitigation Techniques
 [Please refer to the additional document](malwareanalysis.md)
 
-## Network
+## The Disconnect between academic literature and practical methods
 [Reverse Engineering of Protocols from Network Traces](http://www.di.fc.ul.pt/~nuno/PAPERS/WCRE11.pdf) [PDF]
 
-## Obfuscation and Deobfuscation
+## Data Quality Issues in Government Organizations
 * [Context-Sensitive Analysis of Obfuscated x86 Executables](http://www.cacs.louisiana.edu/~arun/papers/2010-pepm-lakhotia.pdf) [PDF]
 * [Advanced JS Deobfuscation Via AST and Partial Evaluation](http://blog.mindedsecurity.com/2015/10/advanced-js-deobfuscation-via-ast-and.html)
 
