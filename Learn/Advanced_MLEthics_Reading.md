@@ -9,7 +9,7 @@ Welcome! See below for a walkthrough of the essentials for AI/ML Ethics for fede
 * [Overview of the AI ethics landscape in 2021.](#ai-ethics-landscape)
 * [How can bias pollute my team's AI/ML machine workflows?](#bias-pollution)
 * [How do bias and fairness considerations shape other government agencies' projects?](#government-and-bias)
-* [How can I quantify the impacts of bias and unfairness in my work with government?](#why-care) 
+* [How can I quantify the impacts of bias and unfairness in my work with government?](#measuring-bias-and-un-fairness) 
 * [What concrete steps can I take to ensure I minimize bias in my team's AI/ML project work?](#concrete-approaches)
 * [What are best AI/ML bias- and ethics-related considerations when either deciding to acquire software, or using software I haven't built myself?](#bias-and-software-acquisition)
 * [How do other agencies, countries, international bodies, and non-governmental organizations conceptualize AI/ML bias and fairness?](#ethical-ai-frameworks)
@@ -23,7 +23,7 @@ Welcome! See below for a walkthrough of the essentials for AI/ML Ethics for fede
 
 ## Government and Bias
 
-## Why Care?
+## Measuring Bias and Un-fairness
 
 ## Concrete Approaches
 
