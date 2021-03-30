@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/80533280/112936235-6ae86580-90f3-11eb-8a99-dfb1e08e2653.png)
+
+
+
 ## Project Partners
 
 This project would not be possible without the tireless efforts of our partners, including:
