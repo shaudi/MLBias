@@ -2,7 +2,7 @@
 
 ## Reading
 
-In this section, you can find a number of resources about AI Ethcis useful for users across a wide range of skills and levels of knowledge. These resources include
+In this section, you will find diverse resources about AI Ethcis useful for users across a wide range of skills and levels of knowledge. These resources include
 
 * Overview reading for those new to AI/ML
 * Intermediate overview reading for those with a bit more experience
