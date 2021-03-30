@@ -8,7 +8,7 @@ Interested in contributing to the Bias in Government ML project? We welcome cont
 
 You can contribute to this project in three ways: by emailing us, by creating an issue, or by submitting a pull request.
 
-* Email our Census team with questions, concerns, and requests at [xdgov@census.gov](mailto:xdgov@census.gov).
+* Email our Census team with questions, concerns, and requests at [inquiries@xd.gov](mailto:inquiries@xd.gov).
 
 * Create a Github Issue: Suggest a change or alert us to issues by creating a Github issue; see [this Github documentation](https://docs.github.com/en/github/managing-your-work-on-github/about-issues) for more information. 
 
