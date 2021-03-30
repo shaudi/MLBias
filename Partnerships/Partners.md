@@ -8,6 +8,6 @@ This project would not be possible without the tireless efforts of our partners,
 
 * Participants in the Presidential Innovation Fellows program, administered through General Services Administration
 
-* The 10x Program at GSA, who provided us generous support and invaluable guidance
+* The 10x Program at GSA, a source of generous support and invaluable guidance
 
 
