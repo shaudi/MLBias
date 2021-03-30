@@ -12,7 +12,7 @@ New to AI and ML? See below for a walkthrough of the essentials for AI/ML Ethics
 * [What concrete steps can I take to ensure I minimize bias in my team's AI/ML project work?](#concrete-approaches)
 * [What are best AI/ML bias- and ethics-related considerations when either deciding to acquire software, or using software I haven't built myself?](#bias-and-software-acquisition)
 * [How do other agencies, countries, international bodies, and non-governmental organizations conceptualize AI/ML bias and fairness?](#ethical-ai-frameworks)
-* [Show me important recent papers, white papers, and books in this area.](#papers-and-books)
+* [Show me important recent papers, white papers, blogs, and books in this area.](#papers-and-books)
 
 
 
@@ -31,5 +31,3 @@ New to AI and ML? See below for a walkthrough of the essentials for AI/ML Ethics
 ## Ethical AI Frameworks
 
 ## Papers and Books
-
-v
