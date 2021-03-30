@@ -1,6 +1,6 @@
 
-# AI Ethics Reading List
-Below is an annotated list of AI ethics papers, with annotation as appropriate. Please email us or create a Github issue if any of these links are no longer active.
+# AI Ethics in Government Reading List
+Below is an annotated list of AI ethics papers (academic, white, and gray literature) that are in some way related to fairness, ethics, and bias issues in government AI/ML workflows. Resources are annotated as appropriate. Please email us or create a Github issue if any of these links are no longer active.
 
 ## Machine Learning Bias in Application
 * [IDA Pro](https://www.hex-rays.com/products/ida/): The **KING** IDA is a Windows, Linux or Mac OS X hosted multi-processor disassembler and debugger that offers so many features it is hard to describe them all.
