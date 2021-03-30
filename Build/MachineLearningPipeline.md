@@ -7,7 +7,7 @@
 ![image](https://user-images.githubusercontent.com/80533280/113006618-89764d00-9143-11eb-8081-29350ac93ca1.png)
 
 
-https://arxiv.org/pdf/1901.10002.pdf 
+Source of the above image: https://arxiv.org/pdf/1901.10002.pdf 
 
 
 
