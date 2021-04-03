@@ -30,11 +30,14 @@ Courses
 ### Less Technical Courses
 
 - [Data c104 / History c184d](https://data.berkeley.edu/data-c104-fall-2020-syllabus) **Human Contexts and Ethics of Data** *UC Berkeley* Fall 2020 
-	- An interesting course jointly offering by the Data Science and History programs at the University of California at Berkeley. This course is of particular relevance to those working in civic tech contexts, giving a historical overview of ethics of institutions as it relates to data use, touching on timely issues ranging from predictive policing to elections, and supplying modern real-world illustrations of the importance of responsible data use by drawing on themes from the field of Science, Technology, and Society.  
+
+- An interesting course jointly offering by the Data Science and History programs at the University of California at Berkeley. This course is of particular relevance to those working in civic tech contexts, giving a historical overview of ethics of institutions as it relates to data use, touching on timely issues ranging from predictive policing to elections, and supplying modern real-world illustrations of the importance of responsible data use by drawing on themes from the field of Science, Technology, and Society.  
 - [USF Applied Data Ethics](https://ethics.fast.ai) **Practical Data Ethics** *FastAI/University of San Francisco* 2020 
-    - As the name suggests, this is a practical course featuring immediate applications of data ethics, designed to be accessible to diverse audiences and thus requiring no formal prerequsites. Of particular value are Lesson 2, which defines metrics and bias, approaches to reduce bias, and real-life complexities of "doing fair AI/ML," and Lesson 3, Ethical Foundations & Practical Tools, which features work on Mitchell et al's Model Cards, and resources on [inclusive technology policy design](https://link.springer.com/article/10.1007/s10676-019-09497-z). 
+  
+  - As the name suggests, this is a practical course featuring immediate applications of data ethics, designed to be accessible to diverse audiences and thus requiring no formal prerequsites. Of particular value are Lesson 2, which defines metrics and bias, approaches to reduce bias, and real-life complexities of "doing fair AI/ML," and Lesson 3, Ethical Foundations & Practical Tools, which features work on Mitchell et al's Model Cards, and resources on [inclusive technology policy design](https://link.springer.com/article/10.1007/s10676-019-09497-z). 
 - [USD AI and the Law](https://smithilaneous.typepad.com/artificial_intel_2020/2020/01/ai-and-the-law-welcome-and-syllabus.html) **Artificial Intelligence and the Law** *University of San Diego School of Law* 2020 
-    - This course explores the legal implications of the proliferation of AI/ML technologies. The reading list offered in teh syllabus features papers on useful topics like Black Box AI, Discrimination, Manipulation and Due Process, and AI and Tort and Criminal Liability, which could offer a legal dimension of AI/Ml useful for those trying to delve into the social impact and policy implications of these technologies.
+  
+  - This course explores the legal implications of the proliferation of AI/ML technologies. The reading list offered in teh syllabus features papers on useful topics like Black Box AI, Discrimination, Manipulation and Due Process, and AI and Tort and Criminal Liability, which could offer a legal dimension of AI/Ml useful for those trying to delve into the social impact and policy implications of these technologies.
 
 
 
