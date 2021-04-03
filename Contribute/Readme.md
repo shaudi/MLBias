@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/80533280/112935614-198ba680-90f2-11eb-88a9-7222b023a0af.png)
 
+
+
 # How to contribute to this project
 
 The usefulness of this repository depends critically on the participation of the ML in government and AI Ethics communities, AI/ML practictioners and researchers, and the civic good community at large. We welcome your contributions to our project!  Please see our guidelines for contributing this project (with thanks to [18f](https://18f.gsa.gov) [open-source projects](https://github.com/18F/methods/blob/staging/CONTRIBUTING.md) for the inspiration for the content and format of this policy). 
