@@ -8,7 +8,7 @@ On this page, we list (free) online materials drawn from courses with diverse sy
 Course Categories
 ------------------
 
-- [Technical classes geared toward computer science, statistics, engineering, and other tehcnical learner audiences](#technical)
+- [Technical classes geared toward computer science, statistics, engineering audiences and/or those who wish to write code](#technical)
 - [Less technical classes accessible to broader audiences](#less-technical-courses)
 
 
