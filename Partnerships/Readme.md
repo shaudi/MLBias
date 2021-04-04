@@ -6,7 +6,7 @@
 
 This project would not be possible without the tireless efforts of our partners, including:
 
-* Students and Faculty at the Heinz School of Public Policy, Carnegie Mellon University
+* Students and Faculty at the [Heinz School of Public Policy](https://www.heinz.cmu.edu) and [Tepper School of Business](https://www.cmu.edu/tepper) at [Carnegie Mellon University](https://www.cmu.edu).
 
 * A community of academic partners and friends
 
