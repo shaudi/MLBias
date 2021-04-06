@@ -2,9 +2,11 @@
 
 
 
-## Project Partners
+## Project Partners/Contributers
 
-This project would not be possible without the tireless efforts of our partners, including:
+This project would not be possible without the tireless efforts of our partners and open source contributers, including:
+
+* The 10x Program at GSA, a source of generous support and invaluable guidance (10x.gsa.gov)
 
 * Students and Faculty at the [Heinz School of Public Policy](https://www.heinz.cmu.edu) and [Tepper School of Business](https://www.cmu.edu/tepper) at [Carnegie Mellon University](https://www.cmu.edu).
 
@@ -12,6 +14,7 @@ This project would not be possible without the tireless efforts of our partners,
 
 * Participants in the Presidential Innovation Fellows program, administered through General Services Administration
 
-* The 10x Program at GSA, a source of generous support and invaluable guidance
+
+
 
 
