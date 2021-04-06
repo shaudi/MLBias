@@ -16,27 +16,7 @@ AI and machine learning-based tools and techniques are quickly being adopted and
 
 ## WHAT: 
 
-This collection currently includes a 
-
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-
-
-*An Annotated List of Resources
-*Books
-  *Articles
-  *Code
-  *Frameworks
-  *External tooling
-  
-*Government Use Cases
-*AI Ethics "Journey Tool"
-*Resources for model development, testing, and assessment of black box tooling
-
-
-[syllabus for beginners, executable Jupyter Notebooks, an annotated list of resources](https://github.com/MLBiasgov/MLBias_papers), a [list of books used to build these resources](https://github.com/MLBiasgov/MLBias/blob/main/textbook%20reading%20list) and [other prototpye components including a Question and Answer flow used to guide users toward the appropriate resource list](https://github.com/MLBiasgov/MLBias/blob/main/MVP-Combating%20Bias%20in%20Government%20Data%20and%20Algorithms.pdf). 
+This collection currently includes a series of government use cases, annotated list of resources, and a Question-and-Answer flow tool to guide users toward the appropriate resource list according to their background, goals, and level of knowledge. 
 
 ## WHEN: 
 
