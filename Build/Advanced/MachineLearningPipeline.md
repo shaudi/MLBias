@@ -2,8 +2,8 @@
 
 In this section presents a high-level view of AI/ML bias, as might be encountered by a typical government practitioner. To this end, this section walks the reader through common sources of bias along the length of the machine learning pipeline, extended here to include composition of research and development and implementation teams before development even begins, and application of results to inform policies or programs at the tail end of the process. 
 
+<img width="1076" alt="image" src="https://user-images.githubusercontent.com/80533280/113875846-29a42580-9785-11eb-86d0-d02bd2be2f70.png">
 
-![image](https://user-images.githubusercontent.com/80533280/113006618-89764d00-9143-11eb-8081-29350ac93ca1.png)
 
 
 Source of the above image: https://arxiv.org/pdf/1901.10002.pdf 
