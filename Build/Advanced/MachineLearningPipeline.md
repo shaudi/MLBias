@@ -23,7 +23,6 @@ https://static1.squarespace.com/static/5b5df2f5fcf7fd7290ff04a4/t/5b8d79a81ae6cf
 
 - [Model Deployment and Beyond](#model-development-and-beyond)
 
-- Application of Bias, Including Even Distribution of Benefits and Risks First, Quotation from paper to include: "**what constitutes best practice in minimizing discriminatory bias and by what mechanism (antidiscrimination laws, consumer protection, industry standards) does society incentivize development and adoption of best practice?62 And second, how do we ensure that the risks and benefits of artificial intelligence are evenly distributed across society? Each set of questions is already occupying considerable resources and attention, including within the industries that build AI into their products, and yet few would dispute we have a long way to go before resolving them.**." "https://static1.squarespace.com/static/5b5df2f5fcf7fd7290ff04a4/t/5b8d79a81ae6cf1d7dfb19a4/1535998377033/04+Artificial+Intelligence+Policy+-+A+Primer+and+Roadmap+%28Calo%29.pdf
 
 
 ### Institutional Knowledge and Configuration 
@@ -36,11 +35,26 @@ A significant proportion of AI/ML progress in government is fueled by agency acq
 
 ### Data Collection and Preparation
 
+Government agencies typically collect their own data and build their own databases, but sometimes acquire or supplement their data from outside vendors, whose data 
+might not be as well-vetted, or supplement their datasets with data from other agencies, whose data their are less familiar with.  There are a host of well-known survey-related biases, from sampling biases to nonrespondent bias to question design that biases respondents toward a particular answer, that can skew internal data such that machine learning work is biased in some way.  A lack of familiarity with datasets, such as those acquired from outside vendors or agency, makes it even more likely to encounter data quality issues that go unrecognize and taint ML training and testing sets during the later ML development lifecycle.  
+
+A futher source of bias is methods commonly used for missing value imputation that are based on incorrect assumptions about whether data is missing at random. Some of these methods are known to distort demographic group proportions. As **XYZ** note, methods for multi-class classification for missing value imputation the most frequent classes as target variables, leading to a distortion for small population groups, because membership in these groups will never be imputed. As illustrated in paper **XYZ** suppose that some individuals identify as non-binary. Because the system only supports male, female, and unspecified as options, these individuals will leave gender unspecified. If mode imputation is used, then their gender will be set to male. A more sophisticated imputation method will still use values from the active domain of the feature, setting the missing values of gender to either male or female. This example illustrates that bias can arise from an incomplete or incorrect choice of data representation.  Another pitfall is a form that has home address as a field. A homeless person will leave this value unspecified, and it is incorrect to attempt to impute it. While dealing with null values is known to be difficult and is already considered among the issues in data cleaning, the needs of responsible data management introduce new problems. 
+
+Data filtering and cleaning are minefields for dataset bias as well. As noted in **XYZ**,  when combining tables from the same dataset, OR combining datasets from varying sources, sdoing elections and joins can arbitrarily change the proportion of protected groups (e.g., for certain age groups) even if they do not directly use the sensitive attribute (e.g., age) as part of the predicate or of the join key. This change in proportion may be unintended and is important to detect, particularly when this happens during one of many preprocessing steps in the ML pipeline. During model development, Ann might have filtered the data by zip code or county to get a sample that is easier to work with. Demographic attributes such as age and income are highly correlated with places of residency, so such a seemingly innocent filtering operation might have heavily biased the data.
+
+Yet another source of bias worth pointing out for agencies hoping to do NLP work is using pre-trained word embeddings. An example given in  **reference ABC** is that of code might replace a textual name feature with the corresponding vector from a word embedding that is missing for rare, non-Western names -- possible if there is a lack of representative data in a training set. If we then filter out records for which no embedding was found, we may disproportionately remove individuals from specific ethnic groups.
+
+Unsound experimentation pre-development. Design and evaluation of ML models is a difficult and tedious undertaking, much more challenging in some aspects than conventional software development, and requires data scientists to engage in heavy experimentation at different stages of the development lifecycle.  It is unfortunately easy to make subtle mistakes that can heavily impact the quality of the resulting model.
+
+
 ### Model Selection Development and Training
+
+For guidance on model selection and traning, please refer to the Intermediate ML Pipleine guide here. 
 
 ### Model Development and Beyond
 
 
- 1) increase racial diversity in AI designers, 2) implement AI impact assessment, 3) establish procedures for staff to contest automated decisions. Each proposal addresses a different stage in the lifecycle of AI used by federal agencies and helps align US policy with the Organization for Economic Co-operation and Development (OECD) Principles on Artificial Intelligence.
+For guidance on model selection and traning, please refer to the Advanced ML Pipeline guide here. 
+
 
 
