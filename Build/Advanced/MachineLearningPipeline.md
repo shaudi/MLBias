@@ -13,8 +13,6 @@ In this section, we walk through common sources of bias along the machine learni
 
 - [Institutional Knowledge and Configuration](#institutional-knowledge-and-configuration) 
 
-https://static1.squarespace.com/static/5b5df2f5fcf7fd7290ff04a4/t/5b8d79a81ae6cf1d7dfb19a4/1535998377033/04+Artificial+Intelligence+Policy+-+A+Primer+and+Roadmap+%28Calo%29.pdf
-
 -  [Vendor or software selection](#vendor-selection)
 
 - [Data Collection and Preparation](#data-collection-and-preparation)
