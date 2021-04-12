@@ -1,4 +1,4 @@
-**##Case Study - US Census Bureau: Bias in Surveys**
+# Case Study - US Census Bureau: Bias in Surveys
 
 **Overview**
 
