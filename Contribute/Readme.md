@@ -19,7 +19,7 @@ You can contribute to this project in three ways: by emailing us, by creating an
 
 ## Principle of Transparency
 
-This project was designed in the spirit of the United States Census Bureau Commitment to [Transparency](https://www.census.gov/about/policies/open-gov/transparency.html), according to which the Bureau strives to operate "under a presumption of openness, sharing information with the public about our programs and projects."
+This project was designed in the spirit of the United States Census Bureau Commitment to [Transparency](https://www.census.gov/about/policies/open-gov/transparency.html), according to which the Bureau strives to operate "under a presumption of openness, sharing information with the public about [Census] programs and projects."
 
 ## Public domain
 This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
