@@ -2,11 +2,11 @@
 
 ## Overview
 
-One of the most common machine learning use cases in government is that which relates to machine learning techniques for survey research. The Census Bureau, U.S. Bureau of Labor Statistics, and the U.S. Department of Agriculture (NASS) among other agencies have done practical work in this area (Source). This case outlines how the US Census is identifying and mitigating bias in its Commodity Flows Survey.
+One of the most common machine learning use cases in government is that which relates to machine learning techniques for survey research. The Census Bureau, U.S. Bureau of Labor Statistics, and the U.S. Department of Agriculture (NASS) among other agencies have done practical work in this area [(Source)](https://arxiv.org/pdf/1812.10422.pdf). This case outlines how the US Census is identifying and mitigating bias in its Commodity Flows Survey.
 
 ## How is machine learning used by survey methodologists?
 
-Machine learning methods are of great value to survey methodologists. First, ML methods are algorithmic and use data to describe the data generating mechanism. There is an important distinction between models created and used for explanation versus prediction. Of these two types, traditional methods involve explanatory models, while the other uses predictive models to forecast continuous outcomes, or classify categorical outcomes, with the latter being the most common variation. While machine learning or algorithmic methods can be used to refine explanatory models, their most common application lies in the development of prediction or classification models. In survey settings, there is often overlap between these two classes of models (Source).
+Machine learning methods are of great value to survey methodologists. First, ML methods are algorithmic and use data to describe the data generating mechanism. There is an important distinction between models created and used for explanation versus prediction. Of these two types, traditional methods involve explanatory models, while the other uses predictive models to forecast continuous outcomes, or classify categorical outcomes, with the latter being the most common variation. While machine learning or algorithmic methods can be used to refine explanatory models, their most common application lies in the development of prediction or classification models. In survey settings, there is often overlap between these two classes of models [(Source)](https://www.nber.org/system/files/chapters/c14278/c14278.pdf).
 
 Predictive models are constructed from data and use associations between predictor variables and the target outcome, minimizing estimation variance and bias and in this process trading off some accuracy for improved empirical precision. In contrast to many explanatory models, the predictive model functional form is often not given in advance, often lacking a table of coefficient estimates or specific statistics that evaluate the significance of a given predictor variable using ex ante variables.
 
@@ -16,7 +16,7 @@ Most of the machine learning methods used by survey metholodigsts are to predict
 
 ## How is Machine Learning applied to survey work in the Census Bureau today?
 
-Application Focus: Autocoding
+*Application Focus: Autocoding*
 
 We examine the case of “autocoding.”  Briefly, coding is a task that classifies an object to a corresponding code, and is useful for large surveys, which contain large numbers of objects and codes/classes and wherein results must be released to the public on a tightly-controlled schedule.  For automatically mapping survey responses, autocoding can be leveraged to improve data processing, improve efficiency several-fold, and reduce labor hours. 
 
