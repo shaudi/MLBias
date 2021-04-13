@@ -66,19 +66,23 @@ Bias is not a new issue for the CFS – as with all other Census Bureau surveys,
 
 When investigating bias in ML, it is key to have a deep understanding of every stage of the data generation and modelling process – from when the input data for machine learning are initially created, to the outcomes, predictions, and allocations of the model itself. Here are a few potential sources of bias in our ML pipeline and our solutions to address these issues.
 
-### Potential Bias
-Response bias: The initial ML model used respondent-provided descriptions and product codes as its training set. Due to the burdensome nature of the product code lookup process and limitations in the product code search tool that Census offered, we found that respondents would systematically misclassify product codes they provided. Because the model is trained on respondent-provided data, this means it will inherit the same biases and misclassifications that respondents make. 
-Omitted variable bias: Limitations in the CFS form meant that respondents were only able to provide 150 characters of product description. This meant that respondents who provided more detail had their descriptions truncated. Potentially, this could mean that our model is missing key contextual information – again leading to systematic misclassifications.
+## Potential Biaseses and Solutions
 
-Solution for response and omitted variable bias: Evaluate impact of ML on data products. Ultimately, the CFS program publishes estimates of the volume of different products moving across the country. We can evaluate how shares of different product types have changed as the result of using ML. In doing so, we can ensure that our model has not inherited any of the biases introduced by respondent misclassification, technical issues with the form, or even other issues we may not have foreseen. By tracking changes in estimates over time, we can monitor and diagnose the cause of changes in product shares and ensure they are not the result of a biased ML process. The below figure illustrates one way that we track these impacts on our product category shares.
+- **Response bias**: The initial ML model used respondent-provided descriptions and product codes as its training set. Due to the burdensome nature of the product code lookup process and limitations in the product code search tool that Census offered, we found that respondents would systematically misclassify product codes they provided. Because the model is trained on respondent-provided data, this means it will inherit the same biases and misclassifications that respondents make. 
 
+- **Omitted variable bias**: Limitations in the CFS form meant that respondents were only able to provide 150 characters of product description. This meant that respondents who provided more detail had their descriptions truncated. Potentially, this could mean that our model is missing key contextual information – again leading to systematic misclassifications.
 
-### Potential Bias
-Automation + Confirmation bias: To ensure the model is assigning high-quality product codes, we have subject-matter experts validate the model’s predictions. Analysts may be predisposed to confirm the model’s classification, leading to confirmation of incorrect product codes and reinforcement of the model’s biases.
-System drift: As we implement this ML in production, we have to keep in mind that products themselves change over time and new products are introduced into the marketplace. Does our coding scheme capture this, and can our ML model appropriately classify those new or changed products? 
-Solution for automation/confirmation bias and system drift: continuous evaluation of a gold standard. Rather than have analysts confirm the model’s predictions, our subject matter experts developed a “gold standard” of products and their associated product code, without looking at any of the model’s outputs. We evaluate the model’s performance on this gold standard to ensure it is making high quality predictions. In addition, by continuously updating this gold standard and re-evaluating over time, we make sure to avoid issues with changes in products over time.
+- **Solution for response and omitted variable bias**: Evaluate impact of ML on data products. Ultimately, the CFS program publishes estimates of the volume of different products moving across the country. We can evaluate how shares of different product types have changed as the result of using ML. In doing so, we can ensure that our model has not inherited any of the biases introduced by respondent misclassification, technical issues with the form, or even other issues we may not have foreseen. By tracking changes in estimates over time, we can monitor and diagnose the cause of changes in product shares and ensure they are not the result of a biased ML process. The below figure illustrates one way that we track these impacts on our product category shares.
+
+- **Automation + Confirmation bias**: To ensure the model is assigning high-quality product codes, we have subject-matter experts validate the model’s predictions. Analysts may be predisposed to confirm the model’s classification, leading to confirmation of incorrect product codes and reinforcement of the model’s biases.
+
+- **System drift**: As we implement this ML in production, we have to keep in mind that products themselves change over time and new products are introduced into the marketplace. Does our coding scheme capture this, and can our ML model appropriately classify those new or changed products? 
+
+- **Solution for automation/confirmation bias and system drift**: continuous evaluation of a gold standard. Rather than have analysts confirm the model’s predictions, our subject matter experts developed a “gold standard” of products and their associated product code, without looking at any of the model’s outputs. We evaluate the model’s performance on this gold standard to ensure it is making high quality predictions. In addition, by continuously updating this gold standard and re-evaluating over time, we make sure to avoid issues with changes in products over time.
 
 We see that after applying these techniques, there was a significant decrease in miscellaneous products, which was a desired outcome because ML could more appropriately code many records that respondents had labelled as “miscellaneous”
+
+<img width="687" alt="image" src="https://user-images.githubusercontent.com/80533280/114551919-00c2db00-9c32-11eb-9ffd-92998faa2f9e.png">
 
 
 Figure: Shares of products in 2017 CFS – the first survey year CFS applied ML -- before and after using ML to correct and impute records. There was a significant decrease in miscellaneous products, which was a desired outcome because ML could more appropriately code many records that respondents had labelled as “miscellaneous” (Approval ID:  CBDRB-FY20-ESMD002-010).
@@ -102,10 +106,10 @@ Toth, D., Phipps, P. (2014). Regression tree models for analyzing survey respons
 
 
 
-To Note: CFS Bias Use Case
+**To Note: CFS Bias Use Case
 The Census Bureau has reviewed this data product for unauthorized disclosure of confidential information and has approved the disclosure avoidance practices applied.  (Approval ID:  CBDRB-FY20-ESMD002-010).
  
-Disclaimer: Any opinions and conclusions expressed herein are those of the author(s) and do not represent the views of the U.S. Census Bureau or the U.S. Department of Transportation. All results have been reviewed to ensure that no confidential information is disclosed.
+Disclaimer: Any opinions and conclusions expressed herein are those of the author(s) and do not represent the views of the U.S. Census Bureau or the U.S. Department of Transportation. All results have been reviewed to ensure that no confidential information is disclosed.**
 
 
 
