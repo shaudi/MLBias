@@ -22,28 +22,44 @@ We examine the case of “autocoding.”  Briefly, coding is a task that classif
 
 To implement autocoding,  there are two distinct types of methodologies. One is supervised classification methods (including machine learning techniques) and the other is rule-based methods. We focus on the machine learning methodology.
 
-One active and illustrative federal government example of using this approach is that of Census Bureau researchers, who have described the use of North American Industry Classification System (NAICS) Economic Census Write-in Autocoder in their work (Source).  In short, they use ML to assign a NAICS code to an SDKB written survey response from the Economic Census, an important national survey conducted by the Census Bureau every five years to collect comprehensive statistics about business activities and businesses throughout the entire United States.  Their approach was to train a model based on 3 years worth of Economic Census data consisting of 1.5 million responses. They purged nonresponses, invalid responses (“n/a”), removed stop words, punctuation, and whitespace, and created features using word sequences occurring throughout the document.
+One active and illustrative federal government example of using this approach is that of Census Bureau researchers, who have described the use of North American Industry Classification System (NAICS) Economic Census Write-in Autocoder in their work 
+[(Source)](https://www.census.gov/content/dam/Census/newsroom/press-kits/2017/jsm/jsm-presentation-dumbacher-hanna.pdf).  In short, they use ML to assign a NAICS code to an SDKB written survey response from the Economic Census, an important national survey conducted by the Census Bureau every five years to collect comprehensive statistics about business activities and businesses throughout the entire United States.  Their approach was to train a model based on 3 years worth of Economic Census data consisting of 1.5 million responses. They purged nonresponses, invalid responses (“n/a”), removed stop words, punctuation, and whitespace, and created features using word sequences occurring throughout the document.
 
 The information from this coding output comes from the Economic Census, the IRS, the Social Security Administration.  Advantages of using an autocoding approach including overcoming the expense,  time-consuming manual approach to coding (again, recall that federal government survey processing deadlines are fixed and  inflexible), and the risk of introducing certain types of systematic errors.
 
 
-
- Figure 1: Sample questions from the North American Industry Classification System (NAICS) Economic Census (Source).
-
-
-
-  Figure 2: The autocoding workflow that translates write-in text to NAICS codes (Source). 	
+<img width="598" alt="image" src="https://user-images.githubusercontent.com/80533280/114549882-90b35580-9c2f-11eb-9e99-39f8007e6ea4.png">
 
 
 
-## How does machine learning bias concretely affect official statistics work in government?
+ Figure 1: Sample questions from the North American Industry Classification System (NAICS) Economic Census 
+ [(Source)](https://www.census.gov/content/dam/Census/newsroom/press-kits/2017/jsm/jsm-presentation-dumbacher-hanna.pdf).
+
+
+
+<img width="664" alt="image" src="https://user-images.githubusercontent.com/80533280/114550099-d2440080-9c2f-11eb-8f46-c31645f9c9de.png">
+
+
+
+
+
+  Figure 2: The autocoding workflow that translates write-in text to NAICS codes 
+  [(Source)](https://www.census.gov/content/dam/Census/newsroom/press-kits/2017/jsm/jsm-presentation-dumbacher-hanna.pdf). 	
+
+
+
+## How does machine learning bias affect real-life official statistics work in government?
 
 The Commodity Flow Survey (CFS) is a joint effort between the Bureau of Transportation Statistics within the U.S. Department of Transportation (DOT) and the U.S. Census Bureau. The survey program produces estimates of the volume of domestic movement of goods by origin geography, destination geography, the product shipped, and mode of transportation. Policymakers at the national and local levels use CFS estimates to make infrastructure planning decisions. 
 
 An example of how CFS data are used for decision-making is shown in the below figure. U.S. DOT’s Bureau of Transportation Statistics and Federal Highway Administration take CFS estimates and combine them with other data sources to produce a comprehensive picture of domestic freight activity. This data product – the Freight Analysis Framework – also helps forecast freight demand on the U.S. highway network for the future, as seen in the figure below. Data like these then help inform policymakers’ infrastructure funding decisions for the highway network. Given the use of CFS data for making these decisions, it is important to minimize any sources of bias that may adversely impact resource allocation.
 
 
-Figure: Visualization produced by U.S. DOT’s Federal Highway Administration, using CFS data to forecast freight traffic volume on the interstate highway system in 2045. Biased CFS estimates could lead to incorrect allocation of truck traffic and thus incorrect forecasts of highway usage – an important data item when making highway funding decisions. CFS data are used here via the Bureau of Transportation Statistics’ Freight Analysis Framework (Source).
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/80533280/114550742-89407c00-9c30-11eb-960c-74de3f9c85de.png">
+
+
+
+Figure: Visualization produced by U.S. DOT’s Federal Highway Administration, using CFS data to forecast freight traffic volume on the interstate highway system in 2045. Biased CFS estimates could lead to incorrect allocation of truck traffic and thus incorrect forecasts of highway usage – an important data item when making highway funding decisions. CFS data are used here via the Bureau of Transportation Statistics’ Freight Analysis Framework [(Source)](https://ops.fhwa.dot.gov/freight/freight_analysis/nat_freight_stats/nhsavglhft2045.htm).
 
 
 Bias is not a new issue for the CFS – as with all other Census Bureau surveys, the CFS routinely conducts studies of non-response bias. However, the CFS program recently introduced a new innovation: using Machine Learning (ML) to autocode product descriptions provided by survey respondents. Previously, the survey asked respondents – in the case of CFS, businesses across the country – to look through a book of 514 product codes to find the one that best fit the product they were shipping. This innovation has substantially improved data quality and reduced burden on those businesses, but implementing this new method required a close examination of potential sources of bias to mitigate undesired negative outcomes.
