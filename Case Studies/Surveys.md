@@ -14,7 +14,7 @@ As it relates to survey research, in the case of responsive designs, where the g
 
 Most of the machine learning methods used by survey metholodigsts are to predict a binary survey response variable -- for example, variables corresponding to categories of age, sex, education, race, income level that are coded as yes/no -- of a respondent. Clearly, when predicting response variables tied to data that can directly influence sensitive and human-recognizable populations like race or gender, which could be used to influence policies affecting these populations, preventing the bias takes on increased importance.
 
-## How is Machine Learning applied to survey work in the Census Bureau today?
+## How is machine learning applied to survey work in the Census Bureau today?
 
 *Application Focus: Autocoding*
 
@@ -34,7 +34,6 @@ The information from this coding output comes from the Economic Census, the IRS,
 
 
 
-
 ## How does machine learning bias affect real-life official statistics work in government?
 
 The Commodity Flow Survey (CFS) is a joint effort between the Bureau of Transportation Statistics within the U.S. Department of Transportation (DOT) and the U.S. Census Bureau. The survey program produces estimates of the volume of domestic movement of goods by origin geography, destination geography, the product shipped, and mode of transportation. Policymakers at the national and local levels use CFS estimates to make infrastructure planning decisions. 
@@ -50,7 +49,7 @@ Bias is not a new issue for the CFS – as with all other Census Bureau surveys,
 
 When investigating bias in ML, it is key to have a deep understanding of every stage of the data generation and modelling process – from when the input data for machine learning are initially created, to the outcomes, predictions, and allocations of the model itself. Here are a few potential sources of bias in our ML pipeline and our solutions to address these issues.
 
-## Potential Biaseses and Solutions
+## Potential biaseses and solutions
 
 - **Response bias**: The initial ML model used respondent-provided descriptions and product codes as its training set. Due to the burdensome nature of the product code lookup process and limitations in the product code search tool that Census offered, we found that respondents would systematically misclassify product codes they provided. Because the model is trained on respondent-provided data, this means it will inherit the same biases and misclassifications that respondents make. 
 
@@ -58,7 +57,7 @@ When investigating bias in ML, it is key to have a deep understanding of every s
 
 - **Solution for response and omitted variable bias**: Evaluate impact of ML on data products. Ultimately, the CFS program publishes estimates of the volume of different products moving across the country. We can evaluate how shares of different product types have changed as the result of using ML. In doing so, we can ensure that our model has not inherited any of the biases introduced by respondent misclassification, technical issues with the form, or even other issues we may not have foreseen. By tracking changes in estimates over time, we can monitor and diagnose the cause of changes in product shares and ensure they are not the result of a biased ML process. The below figure illustrates one way that we track these impacts on our product category shares.
 
-- **Automation + Confirmation bias**: To ensure the model is assigning high-quality product codes, we have subject-matter experts validate the model’s predictions. Analysts may be predisposed to confirm the model’s classification, leading to confirmation of incorrect product codes and reinforcement of the model’s biases.
+- **Automation + confirmation bias**: To ensure the model is assigning high-quality product codes, we have subject-matter experts validate the model’s predictions. Analysts may be predisposed to confirm the model’s classification, leading to confirmation of incorrect product codes and reinforcement of the model’s biases.
 
 - **System drift**: As we implement this ML in production, we have to keep in mind that products themselves change over time and new products are introduced into the marketplace. Does our coding scheme capture this, and can our ML model appropriately classify those new or changed products? 
 
@@ -68,7 +67,6 @@ We see that after applying these techniques, there was a significant decrease in
 
 
 <img width="658" alt="image" src="https://user-images.githubusercontent.com/80533280/114552666-d7567f00-9c32-11eb-92f5-72d52698aa8d.png">
-
 
 
 To conclude, practitioners need to be aware of both the context around the potential impacts of introducing ML into a production process, as well as have a deep understanding of all of the steps that lead to the development of an ML model. An understanding of all aspects of training data and the limitations of that data is especially key, but as we have discussed, bias can be introduced at many points in the process. While we can never completely eliminate bias from our statistical estimates, practitioners should evaluate the impacts of ML-based processes and regularly work with subject-matter experts to validate model outputs and ensure that ML models are correctly calibrated.
