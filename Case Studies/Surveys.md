@@ -27,24 +27,11 @@ One active and illustrative federal government example of using this approach is
 
 The information from this coding output comes from the Economic Census, the IRS, the Social Security Administration.  Advantages of using an autocoding approach including overcoming the expense,  time-consuming manual approach to coding (again, recall that federal government survey processing deadlines are fixed and  inflexible), and the risk of introducing certain types of systematic errors.
 
-
-<img width="598" alt="image" src="https://user-images.githubusercontent.com/80533280/114549882-90b35580-9c2f-11eb-9e99-39f8007e6ea4.png">
-
+<img width="648" alt="image" src="https://user-images.githubusercontent.com/80533280/114552284-6f079d80-9c32-11eb-85b3-2ec8afdcc49c.png">
 
 
- Figure 1: Sample questions from the North American Industry Classification System (NAICS) Economic Census 
- [(Source)](https://www.census.gov/content/dam/Census/newsroom/press-kits/2017/jsm/jsm-presentation-dumbacher-hanna.pdf).
+<img width="647" alt="image" src="https://user-images.githubusercontent.com/80533280/114552359-847cc780-9c32-11eb-8693-b50ef2d23bd5.png">
 
-
-
-<img width="664" alt="image" src="https://user-images.githubusercontent.com/80533280/114550099-d2440080-9c2f-11eb-8f46-c31645f9c9de.png">
-
-
-
-
-
-  Figure 2: The autocoding workflow that translates write-in text to NAICS codes 
-  [(Source)](https://www.census.gov/content/dam/Census/newsroom/press-kits/2017/jsm/jsm-presentation-dumbacher-hanna.pdf). 	
 
 
 
@@ -55,11 +42,8 @@ The Commodity Flow Survey (CFS) is a joint effort between the Bureau of Transpor
 An example of how CFS data are used for decision-making is shown in the below figure. U.S. DOT’s Bureau of Transportation Statistics and Federal Highway Administration take CFS estimates and combine them with other data sources to produce a comprehensive picture of domestic freight activity. This data product – the Freight Analysis Framework – also helps forecast freight demand on the U.S. highway network for the future, as seen in the figure below. Data like these then help inform policymakers’ infrastructure funding decisions for the highway network. Given the use of CFS data for making these decisions, it is important to minimize any sources of bias that may adversely impact resource allocation.
 
 
-<img width="635" alt="image" src="https://user-images.githubusercontent.com/80533280/114550742-89407c00-9c30-11eb-960c-74de3f9c85de.png">
+<img width="654" alt="image" src="https://user-images.githubusercontent.com/80533280/114552796-f6551100-9c32-11eb-9c2a-f8b6a5584a65.png">
 
-
-
-Figure: Visualization produced by U.S. DOT’s Federal Highway Administration, using CFS data to forecast freight traffic volume on the interstate highway system in 2045. Biased CFS estimates could lead to incorrect allocation of truck traffic and thus incorrect forecasts of highway usage – an important data item when making highway funding decisions. CFS data are used here via the Bureau of Transportation Statistics’ Freight Analysis Framework [(Source)](https://ops.fhwa.dot.gov/freight/freight_analysis/nat_freight_stats/nhsavglhft2045.htm).
 
 
 Bias is not a new issue for the CFS – as with all other Census Bureau surveys, the CFS routinely conducts studies of non-response bias. However, the CFS program recently introduced a new innovation: using Machine Learning (ML) to autocode product descriptions provided by survey respondents. Previously, the survey asked respondents – in the case of CFS, businesses across the country – to look through a book of 514 product codes to find the one that best fit the product they were shipping. This innovation has substantially improved data quality and reduced burden on those businesses, but implementing this new method required a close examination of potential sources of bias to mitigate undesired negative outcomes.
@@ -82,10 +66,9 @@ When investigating bias in ML, it is key to have a deep understanding of every s
 
 We see that after applying these techniques, there was a significant decrease in miscellaneous products, which was a desired outcome because ML could more appropriately code many records that respondents had labelled as “miscellaneous”
 
-<img width="687" alt="image" src="https://user-images.githubusercontent.com/80533280/114551919-00c2db00-9c32-11eb-9ffd-92998faa2f9e.png">
 
+<img width="658" alt="image" src="https://user-images.githubusercontent.com/80533280/114552666-d7567f00-9c32-11eb-92f5-72d52698aa8d.png">
 
-Figure: Shares of products in 2017 CFS – the first survey year CFS applied ML -- before and after using ML to correct and impute records. There was a significant decrease in miscellaneous products, which was a desired outcome because ML could more appropriately code many records that respondents had labelled as “miscellaneous” (Approval ID:  CBDRB-FY20-ESMD002-010).
 
 
 To conclude, practitioners need to be aware of both the context around the potential impacts of introducing ML into a production process, as well as have a deep understanding of all of the steps that lead to the development of an ML model. An understanding of all aspects of training data and the limitations of that data is especially key, but as we have discussed, bias can be introduced at many points in the process. While we can never completely eliminate bias from our statistical estimates, practitioners should evaluate the impacts of ML-based processes and regularly work with subject-matter experts to validate model outputs and ensure that ML models are correctly calibrated.
