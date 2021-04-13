@@ -29,8 +29,8 @@ The information from this coding output comes from the Economic Census, the IRS,
 
 <img width="648" alt="image" src="https://user-images.githubusercontent.com/80533280/114552284-6f079d80-9c32-11eb-85b3-2ec8afdcc49c.png">
 
+<img width="678" alt="image" src="https://user-images.githubusercontent.com/80533280/114561867-fa396100-9c3b-11eb-8f24-6c8742c68e00.png">
 
-<img width="647" alt="image" src="https://user-images.githubusercontent.com/80533280/114552359-847cc780-9c32-11eb-8693-b50ef2d23bd5.png">
 
 
 
